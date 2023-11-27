@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reading parameters from testng.xml]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Reading parameters from testng.xml(failed)">
+    <parameter name="site" value="Udemy"/>
+    <parameter name="username" value="Jonas"/>
+    <classes>
+      <class name="ui.PassParameterFromTestngxml">
+        <methods>
+          <include name="readingParameter"/>
+        </methods>
+      </class> <!-- ui.PassParameterFromTestngxml -->
+    </classes>
+  </test> <!-- Reading parameters from testng.xml(failed) -->
+</suite> <!-- Failed suite [Reading parameters from testng.xml] -->
